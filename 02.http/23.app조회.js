@@ -14,7 +14,7 @@ http.createServer((req, res) => {
                 fs.readdir('data', (err, files) => {
                     const title = '웹 기술';
                     const list = template.listGen(files);
-                    const contents = template.HOMT_CONTENTS;
+                    const contents = template.HOMT_CONTENTS.replace('\n', '<br/>');
                     const html = view.index(title, list, contents);
                     res.end(html);
                 });
@@ -24,7 +24,8 @@ http.createServer((req, res) => {
                     const title = query.id;
                     const list = template.listGen(files);
                     const filename = `data/${query.id}.txt`;
-                    fs.readFile(filename, 'utf-8', (err, contents) => {
+                    fs.readFile(filename, 'utf-8', (err, data) => {
+                        let contents = data.replace('\n', '<br/>');
                         const html = view.index(title, list, contents);
                         res.end(html);
                     });
