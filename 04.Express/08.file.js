@@ -28,7 +28,8 @@ app.get('/file',(req,res)=>{
 
 app.post('/file',upload.single('image'),(req,res)=>{
     const comment = req.body.comment;
-    res.send(`<h1>comment : ${comment}</h1>`);
+    res.send(`<h1>comment : ${comment}</h1>
+                <h1>File Name: ${req.file.filename}</h1>`);
 });
 
 app.get('*',(req,res)=>{
