@@ -102,3 +102,35 @@ dist
 
 # TernJS port file
 .tern-port
+01.NodeJs/package-lock.json
+01.NodeJs/package.json
+01.NodeJs/07.File/tmp/싱글.txt
+01.NodeJs/07.File/tmp/a.txt
+01.NodeJs/07.File/tmp/async.txt
+01.NodeJs/07.File/tmp/b.txt
+01.NodeJs/07.File/tmp/c.txt
+01.NodeJs/07.File/tmp/from.txt
+01.NodeJs/07.File/tmp/multi.txt
+01.NodeJs/07.File/tmp/textfile.txt
+01.NodeJs/07.File/tmp/to.txt
+02.http/data/aaaa.txt
+02.http/data/CSS.txt
+02.http/data/HTML.txt
+02.http/data/JavaScript.txt
+02.http/media/고양이.jpg
+02.http/media/동영상.mp4
+02.http/media/오디오.mp3
+03.mySQL/mysql.json
+03.mySQL/package-lock.json
+03.mySQL/package.json
+03.mySQL/view/template.js
+03.mySQL/view/21.kiatigers.html
+03.mySQL/tmp.html
+03.mySQL/view/template.js
+04.Express/package-lock.json
+04.Express/public/mp3_sample.mp3
+04.Express/package.json
+04.Express/public/mp4_sample.mp4
+04.Express/public/img/강아지.jpg
+04.Express/public/img/고양이.jpg
+01.NodeJs/child_process.js
